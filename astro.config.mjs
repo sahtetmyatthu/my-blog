@@ -1,9 +1,6 @@
-// @ts-check
-
-import mdx from '@astrojs/mdx';
-import sitemap from '@astrojs/sitemap';
 import { defineConfig } from 'astro/config';
 
 export default defineConfig({
-	site: 'https://sahtetmyatthu.github.io', // ← Your GitHub Pages URL
+	site: 'https://sahtetmyatthu.github.io',
+	base: '/my-blog',
 });
